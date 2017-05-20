@@ -17,15 +17,15 @@ import java.util.HashMap;
 public class AplicationActivity extends AppCompatActivity {
 
     private String TAG = AplicationActivity.class.getSimpleName();
-    //URL REST
+    //URL REST.
     private static String url = "http://demo4573903.mockable.io/imoveis";
-
+    //Progress Dialog.
     private ProgressDialog dialog;
+    //Array de elementos do REST.
     ArrayList<HashMap<String, String>> imovelList;
+    //List View com os itens do REST.
     private ListView list;
-
-    private TextView textView;
-
+    //Classe REST para realizar o acesso ao URL com os dados.
     private ServiceRest service;
 
     @Override
@@ -87,9 +87,6 @@ public class AplicationActivity extends AppCompatActivity {
                             JSONObject cliente     = jObject.getJSONObject("Cliente");
                             String codCliente = cliente.getString("CodCliente");
                             String nomeFantasia = cliente.getString("NomeFantasia");
-                            //JSONObject urlImagem  = jObject.getJSONObject("UrlImagem");
-//                            String subTipoOferta = urlImagem.getString("SubTipoOferta");
-//                            String subTipoImovel = urlImagem.getString("SubtipoImovel");
 
                             HashMap<String, String> imoveis = new HashMap<>();
                             //imoveis.put("CodImovel", String.valueOf(codImovel));
@@ -111,9 +108,6 @@ public class AplicationActivity extends AppCompatActivity {
                             imoveis.put("Cliente", String.valueOf(cliente));
                             imoveis.put("CodCliente", codCliente);
                             imoveis.put("NomeFantasia", nomeFantasia);
-                            //imoveis.put("UrlImagem", String.valueOf(urlImagem));
-//                            imoveis.put("SubTipoOferta", subTipoOferta);
-//                            imoveis.put("SubTipoImovel", subTipoImovel);
 
                             imovelList.add(imoveis);
                         }
