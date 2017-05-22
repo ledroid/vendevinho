@@ -20,21 +20,13 @@
                 android:layout_height="wrap_content"
                 android:text="Endereço:" android:id="@+id/endereco"
                 android:textColor="#FFA500"/>
-        <!-- <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Logradouro:" android:id="@+id/logradouro"
-                android:textColor="#FFA500"/> -->
+
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Numero:" android:id="@+id/numero"
                 android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Complemento:" android:id="@+id/complemento"
-                android:textColor="#FFA500"/>
+
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -75,11 +67,11 @@
                 android:layout_height="wrap_content"
                 android:text="Suites:" android:id="@+id/suites"
                 android:textColor="#FFA500"/>
-        <!-- <TextView
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Vagas:" android:id="@+id/vagas"
-                android:textColor="#FFA500"/> -->
+                android:textColor="#FFA500"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
