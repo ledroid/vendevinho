@@ -3,6 +3,7 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:id="@+id/lnItem"
               android:padding="@dimen/activity_horizontal_margin">
 
         <!-- <TextView
@@ -13,94 +14,23 @@
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tipo Imovel:" android:id="@+id/tipoImovel"
-                android:textColor="#FFA500"/>
+                android:text=""
+                android:id="@+id/codigoCli"
+                android:textColor="#610B21"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Endereço:" android:id="@+id/endereco"
-                android:textColor="#FFA500"/>
+                android:text="Nome Cliente:"
+                android:id="@+id/nomeCli"
+                android:textColor="#610B21"/>
 
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Numero:" android:id="@+id/numero"
-                android:textColor="#FFA500"/>
+                android:text="CPF Cliente:"
+                android:id="@+id/numeroCPF"
+                android:textColor="#610B21"/>
 
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cep:" android:id="@+id/cep"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bairro:" android:id="@+id/bairro"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cidade:" android:id="@+id/cidade"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Estado:" android:id="@+id/estado"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Zona:" android:id="@+id/zona"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Preço" android:id="@+id/precoVenda"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Dormitorio:" android:id="@+id/dormitorios"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Suites:" android:id="@+id/suites"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Vagas:" android:id="@+id/vagas"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Area Util:" android:id="@+id/areaUtil"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Area Total:" android:id="@+id/areaTotal"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Data Atualização:" android:id="@+id/dataAtualizacao"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cliente:" android:id="@+id/cliente"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cod. Cliente:" android:id="@+id/codCliente"
-                android:textColor="#FFA500"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nome Fantasia:" android:id="@+id/nomeFantasia"
-                android:textColor="#FFA500"/>
+
 
 </LinearLayout>

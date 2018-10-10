@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codigo:"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/codigoSale"
+        android:textColor="#610B21"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data:"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/dateSale"
+        android:textColor="#610B21"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF Cliente:"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/numeroCPF"
+        android:textColor="#610B21"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Itens:"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/itemSale"
+        android:textColor="#610B21"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Variedade:"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/prodSale"
+            android:textColor="#610B21"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pais:"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/countrySale"
+            android:textColor="#610B21"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categoria:"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/categorySale"
+            android:textColor="#610B21"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safra:"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/safraSale"
+            android:textColor="#610B21"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preço:"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/praceSale"
+            android:textColor="#610B21"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Toral:"
+        android:id="@+id/totalSale"
+        android:textColor="#610B21"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
